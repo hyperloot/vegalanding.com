@@ -1,0 +1,104 @@
+.join {
+  padding-top: 9rem;
+  padding-bottom: 15rem;
+}
+
+.join h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.join .social {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.join .social a {
+  --size: 6.5rem;
+  width: var(--size);
+  height: var(--size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  border: 2px solid #dfe1e3;
+}
+
+.join .social a svg {
+  width: 3rem;
+  fill: #bbbfc4;
+}
+
+.join .social a:hover {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.join .social a:hover svg {
+  fill: var(--accent-color);
+}
+
+.footer {
+  position: relative;
+  z-index: 5;
+  background-color: #333333;
+  color: #fff;
+  font-size: 1.4rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.footer a {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer a:before {
+  content: '';
+  width: 2.5rem;
+  height: 3rem;
+  margin-right: 3.2rem;
+  background-image: url(assets/icon_terms.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer a span {
+  margin: 0 0.6rem;
+  color: #fff;
+}
+
+@media (max-width: 740px) {
+
+  .join {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .join h2 {
+    font-size: 2.4rem;
+  }
+
+  .join .social a {
+    --size: 5rem;
+  }
+
+  .join .social a svg {
+    width: 3rem;
+  }
+
+  .footer {
+    font-size: 1.2rem;
+  }
+
+  .footer a:before {
+    margin-right: 1.6rem;
+  }
+
+}
+

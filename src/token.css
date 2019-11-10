@@ -1,0 +1,399 @@
+section.token {
+  min-height: 100vh;
+  display: flex;
+  background-size: 30%;
+  background-image: url(assets/token/token_section_bg.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+section.token .content {
+  max-width: 32.5%;
+  margin: 7.5% 20% 15% 20%;
+  padding-top: 8rem;
+}
+
+section.token h1 {
+  margin-top: 0rem;
+  font-family: 'BebasNeueBold';
+  font-size: 6rem;
+  text-transform: uppercase;
+  color: #000;
+}
+
+section.token h1 span {
+  color: #f53743;
+}
+
+.page-wrapper section.token p {
+  margin: 3.2rem 0;
+  font-size: 1.6rem;
+  color: #5c646e;
+  line-height: 1.5;
+}
+
+section.token .info {
+  display: flex;
+  flex-wrap: wrap;
+  jutify-content: space-between;
+  font-family: 'Gilroy';
+  font-size: 1.4rem;
+  color: #55606c;
+}
+
+section.token .info .info-item {
+  position: relative;
+  display: flex;
+  width: 100%;
+  font-family: 'Gilroy';
+}
+
+section.token .info .info-item .number {
+  font-family: 'BebasNeueBold';
+  font-size: 2.4rem;
+  color: #c9cdd4;
+  margin-right: 2.4rem;
+  line-height: 1;
+}
+
+section.token .info .info-item .number span {
+  color: #f53743;
+}
+
+section.token .info .info-item:not(:last-of-type){
+  margin-bottom: 2.4rem;
+}
+
+section.token .info .info-item h4 {
+  margin-bottom: 0.8rem;
+  margin-top: 0;
+  color: #000;
+  font-size: 1.8rem;
+}
+
+section.token .info .info-item p {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+section.tokenomics {
+  padding: 10rem  0;
+  background-color: #f5f6f8;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-image: url(assets/token/tokenomic_bg.png);
+}
+
+section.tokenomics h2 {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+section.tokenomics h3 {
+  font-size: 2.4rem;
+  margin-bottom: 4rem;
+}
+
+section.tokenomics .container > p {
+  margin-top: 1.8rem;
+  margin-bottom: 2.4rem;
+  color: #5c646e;
+}
+
+section.tokenomics img {
+  width: 100%;
+  height: auto;
+}
+
+.desktop-hidden {
+  display: none;
+}
+
+.token-receive-options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.token-receive-options .col {
+  width: 47.5%;
+}
+
+.token-receive-options .item:not(:last-of-type){
+  margin-bottom: 3rem;
+}
+
+.token-receive-options .item h3 {
+  margin-top: 0;
+  font-size: 14px;
+  margin-bottom: 1.6rem;
+  font-family: 'Gilroy';
+  text-transform: uppercase;
+  color: #55606c;
+}
+
+.token-receive-options .item p {
+  line-height: 1.5;
+}
+
+section.faq {
+  padding: 6rem 0rem 0rem 0;
+}
+
+.page-wrapper section.faq h2 {
+  font-family: 'BebasNeueBold';
+  font-size: 6rem;
+  text-transform: uppercase;
+  margin-top: 0rem;
+  margin-bottom: 4.8rem;
+}
+
+section.faq h2 span{
+  color: #f53743;
+}
+
+.spoiler .header {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.spoiler .header h4  {
+  margin: 0;
+  font-family: 'Gilroy-Medium';
+  font-size: 2rem;
+  pointer-events: none;
+}
+
+.spoiler .header .status {
+  height: 3.6rem;
+  width: 3.6rem;
+  background-color: #fff;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+.spoiler .header .status {
+  background-image: url(assets/token/arrow.svg);
+  background-size: 50%;
+  transform: rotate(180deg);
+}
+
+.spoiler.is-active .header .status {
+  transform: rotate(0deg);
+}
+
+.spoiler {
+  box-sizing: border-box;
+  padding: 3.2rem;
+  margin-bottom: 0.5rem;
+  border-radius: 1.6rem;
+  background-color: #f0f2f5;
+}
+
+.spoiler .content {
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  max-height: 0;
+  transform: translateY(-20px);
+  transition: max-height 0.25s, opacity 0.25s, transform 0.5s;
+}
+
+.spoiler.is-active .content {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+  max-height: 1200px;
+}
+
+.spoiler .content p {
+  line-height: 1.5;
+  padding-right: 20%;
+}
+
+.spoiler .content p:first-of-type {
+  margin-top: 1.2rem;
+}
+
+.spoiler .content p:not(:last-of-type){
+  margin-bottom: 1.2rem;
+}
+
+section.faq .button-link {
+  display: block;
+  margin: 6rem auto 0 auto;
+  padding: 1.6rem 8rem;
+  border-radius: 2.3rem;
+  font-size: 1.4rem;
+  width: 30%;
+}
+
+@media (max-width: 1440px) {
+
+  section.token {
+    background-size: 35%;
+  }
+
+  section.token .content {
+    min-width: 44.5%;
+    margin: 5% 20% 7.5% 14.25%;
+  }
+
+  .spoiler .content p {
+    padding-right: 10%;
+  }
+
+}
+
+@media (max-width: 1368px) {
+
+  section.token {
+    background-size: 25.5%;
+  }
+
+  section.token h1 {
+    margin-bottom: 3.2rem;
+  }
+
+  section.token p {
+    margin: 2.4rem 0;
+  }
+
+  section.token .content {
+    min-width: 50%;
+    margin: 3.5% 20% 7.5% 11.5%;
+  }
+
+}
+
+@media (max-width: 1024px) {
+
+  section.token .content {
+    min-width: 70%;
+    margin: 25% 20% 20% 14.25%;
+    background-size: 36.5%;
+  }
+
+  .button-link {
+    width: 17.5%;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  section .container {
+    max-width: 84.5%;
+  }
+
+  section.token .content {
+    min-width: 85%;
+    margin: auto auto auto auto;
+    background-size: 52.5%;
+  }
+
+  section.faq {
+    padding-bottom: 14rem;
+  }
+
+}
+
+@media (max-width: 740px) {
+
+  section.token .content {
+    margin-top: 20%;
+    min-width: 84.375%;
+    max-width: 84.375%;
+  }
+
+  section.token h1 {
+    font-size: 3.6rem;
+  }
+
+  section.token .info {
+    padding-bottom: 4rem;
+  }
+
+  section.tokenomics {
+    padding: 3.6rem 0;
+    background-image: url(assets/token/tokenomic_mobile_bg.png);
+    background-position: left bottom;
+    background-size: cover;
+  }
+
+  section.tokenomics h2 {
+    font-size: 2.4rem;
+  }
+
+  .token-receive-options {
+    flex-wrap: wrap;
+  }
+
+  .token-receive-options .col {
+    width: 100%;
+  }
+
+  .token-receive-options .col:first-of-type {
+    margin-bottom: 2.4rem;
+  }
+
+  .mobile-hidden  {
+    display: none;
+  }
+
+  .desktop-hidden {
+    display: block;
+  }
+
+  section.faq {
+    padding-top: 3.2rem;
+    padding-bottom: 2.4rem;
+  }
+
+  section.faq h2 {
+    margin-bottom: 4rem;
+  }
+
+  .page-wrapper section.faq h2 {
+    margin-bottom: 2.8rem;
+  }
+
+  section.faq .button-link {
+    margin-top: 2.4rem;
+    padding: 1.6rem 0;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .spoiler {
+    padding: 1.6rem;
+  }
+
+  .spoiler .header .status {
+    min-width: 3.6rem;
+    align-self: flex-start;
+  }
+
+  .spoiler .header h4 {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+
+}
+
+@media (max-width: 740px) and ( orientation: landscape ) {
+
+  section.token {
+    background-size: 35%;
+  }
+
+  section.token .content {
+    margin-top: 12.5%;
+  }
+
+}

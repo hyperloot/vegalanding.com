@@ -1,0 +1,28 @@
+.button-link {
+  padding: 1.6rem 4.8rem;
+  border: 1px solid #f53743;
+  border-radius: 2.3rem;
+  background-color: #fff;
+  font-family: var(--font-family-regular-medium);
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.button-link.button-attention {
+  background-color: #f53743;
+  box-shadow: 0px 6px 14.22px 3.78px rgba(245, 55, 67, 0.22);
+  color: #fff;
+}
+
+.button-link.section-link {
+  text-transform: uppercase;
+  background-color: transparent;
+  border-color: #a2a7ae;
+  color: #a2a7ae;
+}
+
+.button-link.section-link:hover {
+  border-color: var(--accent-color);
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}

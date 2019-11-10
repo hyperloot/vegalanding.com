@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: bold;
+  src: url('./assets/fonts/Gilroy-ExtraBold.otf');
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url('./assets/fonts/Gilroy-Medium.otf');
+}
+
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url('./assets/fonts/Gilroy-Light.otf');
+}
+
+@font-face {
+  font-family: 'BebasNeueBold';
+  font-weight: bold;
+  src: url('./assets/fonts/BebasNeueBold.otf');
+}

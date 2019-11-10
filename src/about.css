@@ -1,0 +1,603 @@
+.page-about section h2 {
+  font-size: 3rem;
+}
+
+.page-about .join {
+  padding-top: 5rem;
+}
+
+section.promo {
+  display: flex;
+  min-height: 100vh;
+  padding-top: 8rem;
+  background-image: url(assets/about/promo_section_bg.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+section.promo .content {
+  margin: 14.95% auto auto 11.25%;
+}
+
+section.promo .content .about {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 6rem;
+  font-family: 'Gilroy';
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #55606c;
+}
+
+section.promo .content h1 {
+  margin: 0 0 5rem 0;
+  font-family: 'BebasNeueBold';
+  font-size: 6rem;
+  text-transform: uppercase;
+}
+
+section.promo .content h1 span {
+  color: #f53743;
+}
+
+section.promo .content .links {
+  display: flex;
+}
+
+section.promo .content .links a:first-of-type {
+  margin-right: 1.6rem;
+}
+
+
+section.features {
+  padding: 15rem 0 24rem 0;
+  background-image: url(assets/about/about_section_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section.features h2 {
+  padding-bottom: 12rem;
+}
+
+section.features .features-block {
+  display: flex;
+}
+
+section.features .features-block .features-item {
+  color: #55606c;
+  width: 23%;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+section.features .features-block .features-item:first-of-type {
+  position: relative;
+  margin-left: 4.8rem;
+}
+
+section.features .features-block .features-item:first-of-type:before {
+  content: '';
+  position: absolute;
+  top: 6.4rem;
+  left: -3.8rem;
+  width: 12px;
+  height: 12px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+section.features .features-block .features-item:not(:last-of-type) {
+  margin-right: 2.5%;
+}
+
+section.features .features-block .features-item .icon {
+  min-height: 4.2rem;
+  margin-bottom: 1.6rem;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.features-block .features-item .icon.blockchain {
+  min-height: 4.6rem;
+  background-image: url(assets/about/icon_ethereum.svg)
+}
+
+.features-block .features-item .icon.marketplace {
+  background-image: url(assets/about/icon_wallet.svg)
+}
+
+.features-block .features-item .icon.protocol {
+  background-image: url(assets/about/icon_console.svg)
+}
+
+.features-block .features-item .icon.games {
+  background-image: url(assets/about/icon_joystick.svg)
+}
+
+.features-block .features-item h3 {
+  text-transform: uppercase;
+  margin: 0 0 1.6rem 0;
+  font-size: 1.4rem;
+}
+
+section.features .features-block .features-item p {
+  width: 91%;
+}
+
+
+.mobile-show {
+  display: none;
+}
+
+section.opportunities {
+  padding: 13rem 0rem;
+}
+
+.opportunities-block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 11rem;
+}
+
+.opportunities-block .item {
+  width: 25%;
+  font-size: 1.4rem;
+  font-family: 'Gilroy';
+  font-weight: 400;
+  color: #5c646e;
+  line-height: 1.5;
+}
+
+.opportunities-block .item .number {
+  font-family: 'BebasNeueBold';
+  font-size: 6rem;
+  color: #dfe1e5;
+  letter-spacing: 0.25rem;
+}
+
+.opportunities-block .item .number span {
+  color: #f53743;
+}
+
+.opportunities-block .item h3 {
+  margin-top: 0;
+  font-family: 'Gilroy';
+  font-size: 3rem;
+  color: #000;
+}
+
+.opportunities-block .item p {
+  margin-top: 0;
+}
+
+.developers-block {
+  display: flex;
+}
+
+.developers-block div {
+  width: 50%;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: 90% 20%;
+}
+
+.developers-block .gamers {
+  position: relative;
+  padding: 6rem 10rem 6rem 6rem;
+  background-color: #f53743;
+  color: #fff;
+  border-radius: 1.5rem 0 0 1.5rem;
+  border-right: 0.35rem solid #fff;
+  background-image: url(assets/about/joystick_bg.svg);
+}
+
+.developers-block .gamers:after {
+  content:'';
+  display: block;
+  position: absolute;
+  top: calc(50% - 3.6rem);
+  right: -3.6rem;
+  height: 7.2rem;
+  width: 7.2rem;
+  background-color: #fff;
+  border-radius: 50%;
+  background-image: url(assets/logo.svg);
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.developers-block .developers {
+  padding: 6rem 6rem 10rem 6rem;
+  background-color: #edeff2;
+  color: #000;
+  border-radius: 0 1.5rem 1.5rem 0;
+  border-left: 0.35rem solid #fff;
+  background-image: url(assets/about/thinking_bg.svg);
+}
+
+.developers-block h4 {
+  font-family: 'Gilroy';
+  font-size: 2.2rem;
+  letter-spacing: 0.050rem;
+  margin-top: 0;
+}
+
+.developers-block p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+
+section.get-started {
+  position: relative;
+  padding: 10rem 0 12rem 0;
+  background-color: #f5f6f8;
+}
+
+section.get-started:after {
+  content:'';
+  position: absolute;
+  right: 0;
+  bottom: -20rem;
+  height: 40rem;
+  width: 21rem;
+  background-image: url(assets/about/roshan_bg.svg);
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+.page-wrapper section.get-started h2 {
+  margin-bottom: 7rem;
+}
+
+.roles-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.roles-block .item {
+  width: 44%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.roles-block .item .icon {
+  min-width: 6.5rem;
+  min-height: 5.5rem;
+  margin-right: 1.2rem;
+  flex: 0;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.roles-block .item .icon.newbies {
+  background-image: url(assets/about/icon_newbie.svg);
+}
+
+.roles-block .item .icon.developers {
+  background-image: url(assets/about/icon_developer.svg);
+}
+
+.roles-block .item .icon.miners {
+  background-image: url(assets/about/icon_miners.svg);
+}
+
+.roles-block .item .icon.foundation {
+  background-image: url(assets/about/icon_foundation.svg);
+}
+
+.roles-block .item h4 {
+  font-family: 'Gilroy';
+  margin: 0 0 1rem 0;
+  font-size: 1.4rem;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.roles-block .item p {
+  width: 85%;
+  margin: 0;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: #5c646e;
+}
+
+.roles-block .item:first-of-type {
+  margin-bottom: 6rem;
+}
+
+.roles-block .item:nth-of-type(2) {
+  margin-bottom: 6rem;
+}
+
+
+@media (max-width: 1440px) {
+
+  section.promo {
+    background-size: 50%;
+  }
+
+  section.promo .content {
+    margin-top: 10.95%;
+  }
+
+  section.features {
+    padding: 7rem 0 16rem 0;
+  }
+
+  section.features h2 {
+    padding-bottom: 10rem;
+  }
+
+  .features-block .features-item {
+    width: 22%;
+  }
+
+  .features-block .features-item:first-of-type {
+    margin-left: 4%;
+    margin-right: 1%;
+  }
+
+  .features-block .features-item:nth-of-type(3) {
+    margin-right: 4%;
+  }
+
+}
+
+
+@media (max-width: 1024px) {
+
+  section.promo {
+    background-size: 40%;
+  }
+
+  section.promo .content {
+    margin-top: auto;
+  }
+
+  section.features {
+    background-image: none;
+    background-color: #f5f5f6;
+    padding-bottom: 7rem;
+  }
+
+  section.features h2 {
+    padding-bottom: 6rem;
+  }
+
+  .features-block {
+    flex-wrap: wrap;
+  }
+
+  .features-block .features-item {
+    width: 47.5%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .features-block .features-item:first-of-type {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 3.8rem;
+  }
+
+  .features-block .features-item:not(:last-of-type) {
+    margin-right: 0;
+  }
+
+  .features-block .features-item:first-of-type:before {
+    display: none;
+  }
+
+  .features-block .features-item:nth-of-type(3) {
+    margin-right: 0;
+  }
+
+  section.opportunities {
+    padding: 7rem 0;
+  }
+
+  .opportunities-block {
+    margin-bottom: 4rem;
+  }
+
+  section.get-started:after {
+    height: 30rem;
+    width: 14rem;
+    bottom: -15rem;
+    background-size: contain;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .opportunities-block {
+    flex-wrap: wrap;
+  }
+
+  .opportunities-block .item {
+    width: 100%;
+    margin-bottom: 3.2rem;
+  }
+
+  .developers-block {
+    flex-direction: column;
+  }
+
+  .developers-block div {
+    width: 100%;
+  }
+
+  .developers-block .gamers {
+    border-radius: 1.5rem 1.5rem 0 0;
+    border-right: none;
+    border-bottom: 0.2rem solid #fff;
+  }
+
+  .developers-block .gamers:after {
+    right: calc(50% - 3.6rem);
+    top: calc(100% - 3.6rem);
+  }
+
+  .developers-block .developers {
+    border-radius: 0 0 1.5rem 1.5rem;
+    border-left: none;
+    border-top: 0.2rem solid #fff;
+  }
+
+}
+
+@media (max-width: 740px) {
+
+  section.promo {
+    margin: auto 0;
+    padding: 0 7.5%;
+    background-size: 50%;
+    background-image: url(assets/about/promo_section_mobile_bg.svg);
+  }
+
+  section.promo .content {
+    margin: auto;
+  }
+
+  section.promo .content .about {
+    margin-bottom: 5rem;
+  }
+
+  section.promo .content h1 {
+    font-size: 3.6rem;
+  }
+
+  section.promo .content .links {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  section.promo .content .links a {
+    width: 45%;
+  }
+
+  section.promo .content .links a:first-of-type {
+    margin-right: 1.2rem;
+  }
+
+  section.promo .content .links .button-link {
+    padding: 1.6rem 0rem;
+  }
+
+  section.features {
+    background-color: #f5f6f8;
+    background-position: bottom;
+  }
+
+  section.features h2 {
+    padding-bottom: 3.2rem;
+  }
+
+  section.features .features-block .features-item {
+    width: 100%;
+    margin-bottom: 3.2rem;
+  }
+
+  section.features .features-block .features-item:first-of-type {
+    padding-bottom: 0;
+    margin-bottom: 3.2rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .features-block .features-item p {
+    width: 100%;
+  }
+
+  .opportunities-block {
+    margin-bottom: 5rem;
+  }
+
+  .opportunities-block .item .number {
+    line-height: 1;
+  }
+
+  .opportunities-block .item h3 {
+    line-height: 1;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+
+  .opportunities-block .item:not(:last-of-type) {
+    margin-bottom: 7rem;
+  }
+
+  .opportunities-block .item p {
+    margin-bottom: 0;
+  }
+
+  .developers-block .gamers {
+    padding: 4rem 3rem 5rem 3rem;
+  }
+
+  .developers-block .developers {
+    padding: 4rem 3rem 3rem 3rem;
+  }
+
+  section.get-started {
+    padding: 5rem 0rem 6rem 0;
+  }
+
+  section.get-started:after {
+    display: none;
+  }
+
+  section.get-started h2 {
+    margin-bottom: 5rem;
+  }
+
+  .roles-block .item {
+    margin-bottom: 4rem;
+  }
+
+  .roles-block .item:first-of-type {
+    margin-bottom: 4rem;
+  }
+
+  .roles-block .item:nth-of-type(2) {
+    margin-bottom: 4rem;
+  }
+
+  .roles-block .item .icon {
+    margin-right: 1.2rem;
+  }
+
+  .roles-block {
+    flex-wrap: wrap;
+  }
+
+  .roles-block .item {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 740px) and ( orientation: landscape ) {
+
+  section.promo .content {
+    min-width: 70%;
+  }
+
+  section.promo .content .promo-links {
+    align-items: center;
+    width: 100%;
+  }
+
+  section.promo .content .promo-links a:first-of-type {
+    margin-right: 5%;
+    margin-bottom: 0;
+  }
+
+}
