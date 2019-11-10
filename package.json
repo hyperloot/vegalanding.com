@@ -1,8 +1,6 @@
 {
-  "name": "hyperloot",
-  "title": "Hyperloot protocol - Transcending value between games.",
-  "description": "Hyperloot is an open-source platform that turns in-game items into crypto-assets backed by tokens. It's build around a proven tech stack including Ethereum blockchain. We are creating a gamer community-driven platform to interact with developers as a Hyperloot DAO.",
-  "description-shord": "Hyperloot is an open-source platform that turns in-game items into crypto-assets backed by tokens.",
+  "name": "vegalanding",
+  "description": "",
   "version": "1.0.0",
   "author": "dcversus",
   "license": "MIT",
