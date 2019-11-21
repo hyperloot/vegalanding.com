@@ -1,21 +1,15 @@
+
+
 @font-face {
-  font-family: 'Gilroy';
+  font-family: 'CoreSans';
   font-weight: bold;
-  src: url('./assets/fonts/Gilroy-ExtraBold.otf');
+  src: url('./assets/fonts/CoreSansD57CnBold.otf');
 }
 
-@font-face {
-  font-family: 'Gilroy-Medium';
-  src: url('./assets/fonts/Gilroy-Medium.otf');
-}
 
 @font-face {
-  font-family: 'Gilroy-Light';
-  src: url('./assets/fonts/Gilroy-Light.otf');
-}
-
-@font-face {
-  font-family: 'BebasNeueBold';
+  font-family: 'CoreSans55';
   font-weight: bold;
-  src: url('./assets/fonts/BebasNeueBold.otf');
+  src: url('./assets/fonts/CoreSansD55Bold.otf');
 }
+

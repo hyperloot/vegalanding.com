@@ -5,7 +5,6 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const moment = require('moment');
 
 const IS_PROD = process.env.NODE_ENV === 'production';
 
@@ -79,7 +78,6 @@ const config = {
       templateParameters: {
         lang: 'en',
         template: 'about',
-        postsData,
       },
     }),
   ],

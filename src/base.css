@@ -1,4 +1,6 @@
-@import '../~normalize.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* @import './~normalize.css'; */
 @import './fonts.css';
 
 :root {
@@ -34,6 +36,11 @@ html {
 
 body {
   scroll-behavior: smooth;
+  background: url("./assets/background.jpg") no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+  margin: 0;
 }
 
 ::selection {
@@ -50,6 +57,10 @@ a {
   text-decoration: none;
 }
 
+.title-font {
+  font-family: 'CoreSans', sans-serif;
+}
+
 /***** Common styles *****/
 @import './common.css';
 @import './content.css';
@@ -58,12 +69,8 @@ a {
 @import './buttons.css';
 @import './footer.css';
 @import './sidebar.css';
-@import './banner.css';
+@import './nav-sidebar.css';
 
-/***** Pages *****/
-@import './about.css';
-@import './token.css';
-@import './solutions.css';
+/***** Platform *****/
 
-@import './posts.css';
-@import './post.css';
+@import './platform.css';
