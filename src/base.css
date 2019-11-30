@@ -45,7 +45,7 @@ body {
 
 ::selection {
   color: var(--white-color);
-  background: var(--accent-color);
+  background: #373af5;
 }
 
 b, strong, h1, h2 {
