@@ -140,7 +140,7 @@ section h3 {
   color: var(--white-color);
 }
 .join {
-  padding-top: 280px;
+  padding-top: 100px;
   padding-bottom: 50px;
 }
 
@@ -243,11 +243,12 @@ section h3 {
 
 @media (max-width: 768px) {
   .join {
-    padding-top: 8rem;
+    padding-top: 0rem;
     padding-bottom: 8rem;
   }
   .join h2 {
     font-size: 2.4rem;
+    text-transform: inherit;
   }
   .join .social a {
     --size: 5rem;
@@ -268,6 +269,9 @@ section h3 {
   }
   .join .social {
     padding-bottom: 30px;
+  }
+  .join .social-wrap {
+    padding-top: 20px;
   }
 }.sidebar {
   position: fixed;
@@ -550,6 +554,37 @@ section h3 {
   font-size: 20px;
 }
 
+.nav-sidebar .social {
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+}
+
+.nav-sidebar .social a {
+  width: 13px;
+  height: 13px;
+  transition: 0.3s ease;
+  margin: 0 16px;
+}
+
+.nav-sidebar .social a:not(:last-of-type){
+  margin-bottom: 30px;
+}
+
+.nav-sidebar .social a svg {
+  width: 15px;
+  height: 15px;
+  fill: rgb(22, 22, 22);
+  transition: 0.3s ease;
+}
+
+.nav-sidebar .social a svg path {
+  fill: rgb(22, 22, 22);
+  transition: 0.3s ease;
+}
+
+
+
 @media(max-width: 1440px) {
   .nav-sidebar {
     right: 30px;
@@ -717,7 +752,9 @@ section h3 {
 section h2 span, section h3 span {
   color: #5cb9ff;
 }
-
+.features {
+  padding-top: 200px;
+}
 .features .items {
   display: flex;
   flex-wrap: wrap;
@@ -769,9 +806,11 @@ section h2 span, section h3 span {
   color: #fff;
   font-size: 16px;
 }
+
 .about {
-  padding-top: 48px;
+  padding-top: 200px;
 }
+
 .about .story {
   padding: 24px 0 48px;
   display: flex;
@@ -970,6 +1009,12 @@ section h2 span, section h3 span {
   height: 77px;
 }
 
+.about .about-items .about-item .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .about .about-banner {
   position: relative;
   height: 222px;
@@ -978,7 +1023,6 @@ section h2 span, section h3 span {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 150px;
 }
 
 .about .about-banner:before {
@@ -1030,12 +1074,17 @@ section h2 span, section h3 span {
   left: 0;
   top: -70px;
   z-index: 2;
+  width: 450px;
 }
 
 .about .about-banner .img img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.partnership {
+  padding-top: 150px;
 }
 
 .partnership-block {
@@ -1051,6 +1100,9 @@ section h2 span, section h3 span {
 
 .partnership-block .item {
   padding: 12px 24px;
+  background: linear-gradient(90deg, #0675C9 -9.84%, #5CB9FF 50.7%, #073CC4 105.25%);
+  border-radius: 10px;
+  margin-bottom: 24px;
 }
 
 .partnership-block .item.active {
@@ -1240,7 +1292,7 @@ section h2 span, section h3 span {
 }
 
 .demand, .features {
-  height: 100vh;
+  height: 80vh;
   max-height: 100vh;
   display: flex;
   align-items: center;
@@ -1251,7 +1303,10 @@ section h2 span, section h3 span {
   justify-content: space-between;
   align-items: center;
 }
-
+.demand .wrap-header .text {
+  width: 100%;
+  max-width: 300px;
+}
 .demand .wrap-header .text p {
   color: #FFFFFF;
   font-size: 16px;
@@ -1264,10 +1319,11 @@ section h2 span, section h3 span {
 }
 
 .demand .wrap-header .img {
-  width: 640px;
-  height: 240px;
+  width: 100%;
+  height: 300px;
   border-radius: 12px 2px;
   overflow: hidden;
+  max-width: 1000px;
 }
 
 .demand .wrap-header .img img {
@@ -1346,6 +1402,7 @@ section h2 span, section h3 span {
   }
   .about .about-banner .img {
     left: -70px;
+    width: 410px;
   }
 }
 
@@ -1409,6 +1466,10 @@ section h2 span, section h3 span {
   }
   .token-wrap .table {
     margin-left: 0;
+  }
+  .demand, .features {
+    height: auto;
+    max-height: inherit;
   }
 }
 
@@ -1567,7 +1628,7 @@ body {
 
 ::selection {
   color: var(--white-color);
-  background: var(--accent-color);
+  background: #373af5;
 }
 
 b, strong, h1, h2 {
