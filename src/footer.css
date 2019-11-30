@@ -102,11 +102,12 @@
 
 @media (max-width: 768px) {
   .join {
-    padding-top: 8rem;
+    padding-top: 0rem;
     padding-bottom: 8rem;
   }
   .join h2 {
     font-size: 2.4rem;
+    text-transform: inherit;
   }
   .join .social a {
     --size: 5rem;
@@ -127,5 +128,8 @@
   }
   .join .social {
     padding-bottom: 30px;
+  }
+  .join .social-wrap {
+    padding-top: 20px;
   }
 }

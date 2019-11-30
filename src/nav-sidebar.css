@@ -157,6 +157,37 @@
   font-size: 20px;
 }
 
+.nav-sidebar .social {
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+}
+
+.nav-sidebar .social a {
+  width: 13px;
+  height: 13px;
+  transition: 0.3s ease;
+  margin: 0 16px;
+}
+
+.nav-sidebar .social a:not(:last-of-type){
+  margin-bottom: 30px;
+}
+
+.nav-sidebar .social a svg {
+  width: 15px;
+  height: 15px;
+  fill: rgb(22, 22, 22);
+  transition: 0.3s ease;
+}
+
+.nav-sidebar .social a svg path {
+  fill: rgb(22, 22, 22);
+  transition: 0.3s ease;
+}
+
+
+
 @media(max-width: 1440px) {
   .nav-sidebar {
     right: 30px;
