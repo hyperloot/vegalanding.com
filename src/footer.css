@@ -7,6 +7,7 @@
   font-size: 50px;
   line-height: 50px;
   color: #FFFFFF;
+  text-transform: uppercase;
 }
 
 .join h2 span {
@@ -80,8 +81,12 @@
   background: #262626;
 }
 
-.join .social a.medium {
-  background: #292929;
+.join .social a.youtube {
+  background: #c4302b;
+}
+
+.join .social a.vk {
+  background: #597da3;
 }
 
 .join .social a svg {
@@ -106,8 +111,8 @@
     padding-bottom: 8rem;
   }
   .join h2 {
-    font-size: 2.4rem;
-    text-transform: inherit;
+    font-size: 31px;
+    line-height: 30px;
   }
   .join .social a {
     --size: 5rem;

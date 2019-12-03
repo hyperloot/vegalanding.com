@@ -16,7 +16,7 @@
   font-weight: bold;
   color: #051125;
   padding: 10px 15px;
-  font-size: 12px;
+  font-size: 18px;
   text-transform: uppercase;
   border-radius: 4px;
   margin: 45px 0 0;
@@ -46,7 +46,7 @@
 .nav-sidebar .link .name-link {
   color: #5CB9FF;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 18px;
   text-align: right;
   text-transform: uppercase;
   opacity: 0;
@@ -196,7 +196,10 @@
     padding: 12px 0;
   }
   .nav-sidebar .link .name-link {
-    font-size: 10px;
+    font-size: 12px;
+  }
+  .nav-sidebar .join-button {
+    font-size: 12px;
   }
 }
 

@@ -565,6 +565,7 @@ section h2 span, section h3 span {
   line-height: 26px;
   text-transform: uppercase;
   margin-bottom: 48px;
+  font-weight: bold;
 }
 
 .token-wrap .numbers .december {
@@ -949,5 +950,20 @@ section h2 span, section h3 span {
   }
   .token-wrap .table {
     flex-basis: 100%;
+  }
+  .about .numbers .item-num .header-num {
+    display: flex;
+    flex-direction: column;
+  }
+  .about .numbers .item-num .header-num span {
+    padding-bottom: 10px;
+  }
+  .token-wrap .numbers {
+    align-items: center;
+  }
+  .token-wrap .table .white-list {
+    display: flex;
+    height: 45px;
+    max-width: 100%;
   }
 }
