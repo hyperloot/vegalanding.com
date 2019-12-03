@@ -771,6 +771,9 @@ section h2 span, section h3 span {
     left: -70px;
     width: 410px;
   }
+  .demand, .features {
+    max-height: 100vh;
+  }
 }
 
 @media(max-width: 1024px) {
