@@ -148,6 +148,7 @@ section h3 {
   font-size: 50px;
   line-height: 50px;
   color: #FFFFFF;
+  text-transform: uppercase;
 }
 
 .join h2 span {
@@ -221,8 +222,12 @@ section h3 {
   background: #262626;
 }
 
-.join .social a.medium {
-  background: #292929;
+.join .social a.youtube {
+  background: #c4302b;
+}
+
+.join .social a.vk {
+  background: #597da3;
 }
 
 .join .social a svg {
@@ -247,8 +252,8 @@ section h3 {
     padding-bottom: 8rem;
   }
   .join h2 {
-    font-size: 2.4rem;
-    text-transform: inherit;
+    font-size: 31px;
+    line-height: 30px;
   }
   .join .social a {
     --size: 5rem;
@@ -317,18 +322,18 @@ section h3 {
 }
 
 .sidebar .social a {
-  width: 13px;
-  height: 13px;
+  width: 30px;
+  height: 30px;
   transition: 0.3s ease;
 }
 
-.sidebar .social a:not(:last-of-type){
+.sidebar .social a:not(:last-of-type) {
   margin-bottom: 30px;
 }
 
 .sidebar .social a svg {
-  width: 15px;
-  height: 15px;
+  width: 30px;
+  height: 30px;
   fill: #0082E5;
   transition: 0.3s ease;
 }
@@ -346,23 +351,31 @@ section h3 {
   fill: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1440px) {
+  .sidebar .social a {
+    width: 20px;
+    height: 20px;
+    transition: 0.3s ease;
+  }
+  .sidebar .social a svg {
+    width: 20px;
+    height: 20px;
+  }
+}
 
+@media (max-width: 768px) {
   .layout {
     padding-left: 0rem;
   }
-
   .sidebar {
     display: block;
     width: 100%;
     max-height: 5.5rem;
   }
-
   .sidebar .sidebar-header {
     display: flex;
     justify-content: space-between;
   }
-
   .sidebar .logo {
     min-width: 57px;
     min-height: 54px;
@@ -373,29 +386,19 @@ section h3 {
     border-bottom: 0;
     box-shadow: none;
   }
-
-  .sidebar nav,
-  .sidebar .social {
+  .sidebar nav, .sidebar .social {
     display: none;
   }
-
   .sidebar.active .logo .small-logo {
     display: none;
   }
-
   .sidebar.active .logo .full-logo {
     width: 16rem;
     display: block;
   }
-
 }
 
-@media (max-width: 500px) {
-
-
-
-}
-.nav-sidebar {
+@media (max-width: 500px) {}.nav-sidebar {
   position: fixed;
   right: 53px;
   top: 0px;
@@ -413,7 +416,7 @@ section h3 {
   font-weight: bold;
   color: #051125;
   padding: 10px 15px;
-  font-size: 12px;
+  font-size: 18px;
   text-transform: uppercase;
   border-radius: 4px;
   margin: 45px 0 0;
@@ -443,7 +446,7 @@ section h3 {
 .nav-sidebar .link .name-link {
   color: #5CB9FF;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 18px;
   text-align: right;
   text-transform: uppercase;
   opacity: 0;
@@ -593,7 +596,10 @@ section h3 {
     padding: 12px 0;
   }
   .nav-sidebar .link .name-link {
-    font-size: 10px;
+    font-size: 12px;
+  }
+  .nav-sidebar .join-button {
+    font-size: 12px;
   }
 }
 
@@ -1199,6 +1205,7 @@ section h2 span, section h3 span {
   line-height: 26px;
   text-transform: uppercase;
   margin-bottom: 48px;
+  font-weight: bold;
 }
 
 .token-wrap .numbers .december {
@@ -1583,6 +1590,21 @@ section h2 span, section h3 span {
   }
   .token-wrap .table {
     flex-basis: 100%;
+  }
+  .about .numbers .item-num .header-num {
+    display: flex;
+    flex-direction: column;
+  }
+  .about .numbers .item-num .header-num span {
+    padding-bottom: 10px;
+  }
+  .token-wrap .numbers {
+    align-items: center;
+  }
+  .token-wrap .table .white-list {
+    display: flex;
+    height: 45px;
+    max-width: 100%;
   }
 }/* @import './~normalize.css'; */
 
